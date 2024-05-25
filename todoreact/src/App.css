@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  /* background-color: #f4f4f4; */
+}
+.container{
+  width: 40rem;
+  background-color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+  margin: auto;
+}
+.search-box{
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(217, 217, 217);
+  background-color: #ffffff;
+  padding: 0 0.5rem;
+}
+.upper-por{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-btn{
+  background-color: green;
+  border: none;
+  padding: 0.04rem 0.8rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.main-container{
+  width: 38rem;
+  background-color: #ffffff;
+  margin: auto;
+}
+.flex-them{
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(236, 236, 236);
+  margin: 1rem 0.4rem;
+  border-radius: 0.3rem;
+  /* justify-content: center; */
+}
+.flex-them > p{
+  width: 34rem;
+  /* height: 2rem; */
+  padding: 0.3rem 0;
+  padding-left: 0.4rem;
+  /* background-color: red; */
+  /* justify-content: start; */
+  text-align: start;
+  color: #656565;
+  /* align-items: center; */
+  padding-bottom: 0.7rem;
+}
+.remove-btn{
+  padding: 0.04rem 0.6rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  border-radius: 0.2rem;
+  background-color: #f94848;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.edit-button{
+  padding: 0.04rem 0.6rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  border-radius: 0.2rem;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(65, 65, 255);
+  cursor: pointer;
+}
